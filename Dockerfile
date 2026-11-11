@@ -1,6 +1,6 @@
 FROM jboss/wildfly:10.1.0.Final
 
-COPY librerias/mariadb-java-client-1.5.9.jar \
+COPY librerias/mariadb-java-client-4.0.0.jar \
 /opt/jboss/wildfly/modules/system/layers/base/org/mariadb/jdbc/main/
 
 COPY librerias/module.xml \
